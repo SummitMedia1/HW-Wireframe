@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	text-align: center;
 }
 
 .wrapper {
@@ -12,38 +13,32 @@
 
 body {
 	font-family: Roboto;
-	font-size: 20px;
+	font-size: 24px;
 	color: #777;
 	background-color: #777;
 }
 
 
 #header {
-	width: 100%;
 	padding: 40px;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	background-color: #ebebeb;
-	text-align: center;
-	position: relative;
 }
 
 #nav {
-	width: 100%;
 	padding: 40px;
 	background-color: #ebebeb;
-	text-align: center;
 	margin-bottom: 20px;
-	position: relative;
-
 }
 
 .container {
-	width: 59%;
+	width: 59.5%;
 	height: 300px;
 	margin: 0px auto;
 	background-color: #ebebeb;
 	float: left;
+	clear: both;
 }
 
 #article {
@@ -55,7 +50,6 @@ body {
 	margin: 0px auto;
 	position: relative;
 	top: -20px;
-	float: initial;
 }
 
 h1 {
@@ -63,40 +57,34 @@ h1 {
 	font-size: 20px;
 	height: 50px;
 	width: 97%;
-	text-align: center;
 	background-color: #ebebeb;
 	position: relative;
 	top: 25px;
-	float: inherit;
+	float: left;
 }
 
 p {
 	display: inline-block;
 	height: 50px;
 	width: 97%;
-	text-align: center;
 	background-color: #ebebeb;
 	overflow: scroll;
 	position: relative;
-	clear: both;
+	float: left;
 }
 
 
 #aside {
-	display: inline-block;
-	width: 39%;
+	width: 39.5%;
 	height: 300px;
 	padding: 20px;
 	float: right;
 	background-color: #ebebeb;
-	text-align: center;
 	margin-bottom: 20px;
 }
 
 #footer {
-	width: 100%;
 	padding: 40px;
 	background-color: #ebebeb;
-	text-align: center;
 	clear: both;
 }
